@@ -19,14 +19,12 @@
 
     .forecastDay {
         display: flex;
-        column: column;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         font-size: 0.9rem;
         @include mq(375px) {
             font-size: 1rem;
         }
-
-
     }
 }
